@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/digital-garden/","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/digital-garden/"}
 ---
 
 
