@@ -4,3 +4,6 @@
 
 
 Este es mi digital garden.
+
+- [[Obsidian\|Obsidian]]
+- [[Digital Garden\|Digital Garden]]
