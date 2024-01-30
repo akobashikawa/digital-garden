@@ -51,3 +51,16 @@
 		- Cambiar el remote para que apunte a nuestro repo, por ejemplo:
 			- git remote set-url origin https://github.com/akobashikawa/digital-garden.git
 		- En Netlify, importar nuestro repo. En un hosting propio, hay que hacer la configuración del despliegue apropiadamente, por ejemplo con Jenkins.
+
+## Problema para desplegar en Windows
+
+- npm run build
+- Al ejecutarlo en Ubuntu 22.04, ok
+- Al ejecutarlo en Windows 10 ó Windows Server 19, obtengo:
+	- Error in your Eleventy config file '.eleventy.js'
+	- Something went wrong installing the "sharp" module
+- sharp es usado por:
+	- eleventy-img
+	- eleventy-plugin-gen-favicons
+- Al 20240130, no he logrado solucionar este problema
+
