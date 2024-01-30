@@ -6,18 +6,7 @@
 - Es un plugin para [[Obsidian\|Obsidian]] que ayuda a desplegar un [[Digital Garden\|digital garden]].
 - Usa el generador de sites estáticos Eleventy (11ty)
 
-## Cómo desplegar un digital garden
-
-- La documentación supone que usamos Vercel, que ofrece un servicio de hosting de sites estáticos gratuito.
-- También se puede hacer el despliegue en otro hosting, como Netlify, que ofrece un servicio similar, o en un hosting propio.
-	- Para eso hay que adaptar el paso del botón Deploy y, en lugar de eso:
-		- En GitHub, crear manualmente un repositorio para el digital garden
-			- Por ejemplo: https://github.com/akobashikawa/digital-garden.git
-		- En la máquina local, clonar el repositorio del template
-			- git clone https://github.com/oleeskild/digitalgarden.git
-		- Cambiar el remote para que apunte a nuestro repo, por ejemplo:
-			- git remote set-url origin https://github.com/akobashikawa/digital-garden.git
-		- En Netlify, importar nuestro repo. En un hosting propio, hay que hacer la configuración del despliegue apropiadamente, por ejemplo con Jenkins.
+## Cómo desplegar un digital garden en Vercel
 
 ### Para el hosting
 
@@ -49,5 +38,18 @@
 		- Base URL: https://akc-digital-garden.vercel.app
 - Para configurar la apariencia:
 	- Features, Global Note Settings, Manage Note Settings
+
+## Cómo hacer el despliegue en otro lugar
+
+- La documentación supone que usamos Vercel, que ofrece un servicio de hosting de sites estáticos gratuito.
+- También se puede hacer el despliegue en otro hosting, como Netlify, que ofrece un servicio similar, o en un hosting propio.
+	- Para eso hay que adaptar el paso del botón Deploy y, en lugar de eso:
+		- En GitHub, crear manualmente un repositorio para el digital garden
+			- Por ejemplo: https://github.com/akobashikawa/digital-garden.git
+		- En la máquina local, clonar el repositorio del template
+			- git clone https://github.com/oleeskild/digitalgarden.git
+		- Cambiar el remote para que apunte a nuestro repo, por ejemplo:
+			- git remote set-url origin https://github.com/akobashikawa/digital-garden.git
+		- En Netlify, importar nuestro repo. En un hosting propio, hay que hacer la configuración del despliegue apropiadamente, por ejemplo con Jenkins.
 
 [[Mi configuración\|Mi configuración]]
