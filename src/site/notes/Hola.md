@@ -3,7 +3,9 @@
 ---
 
 
-Este es mi digital garden.
+Este es mi [[Digital Garden\|digital garden]].
 
-- [[Obsidian\|Obsidian]]
 - [[Digital Garden\|Digital Garden]]
+- [[Obsidian\|Obsidian]]
+	- [[Obsidian Digital Garden\|Obsidian Digital Garden]]
+	- [[Mi configuración\|Mi configuración]]
